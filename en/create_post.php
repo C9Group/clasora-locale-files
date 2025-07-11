@@ -68,7 +68,7 @@ return [
     ],
     'continue' => 'Save & Continue',
   ],
-  'step3' => 
+  'step4' => 
   [
     'video' => 
     [
