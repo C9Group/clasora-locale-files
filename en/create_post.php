@@ -66,6 +66,24 @@ return [
       'title' => 'Country',
       'placeholder' => 'Enter country',
     ],
+    'continue' => 'Save & Continue',
+  ],
+  'step3' => 
+  [
+    'video' => 
+    [
+      'description' => 'Present your class in engaging video',
+      'title' => 'Class video presentation',
+      'choose' => 'Choose Video',
+      'change' => 'Change Video',
+      'selected' => 'Selected Video',
+      'size' => 'Video size should not exceed :size MB',
+    ],
+    'title' => 'Video presentation',
+    'submit' => 
+    [
+      'post' => 'Submit Post',
+    ],
   ],
   'validation' => 
   [
@@ -124,6 +142,11 @@ return [
     [
       'heading' => 'Location and Price',
       'desctiption' => 'Specify the lesson location and pricing',
+    ],
+    'step4' => 
+    [
+      'heading' => 'Video presentation',
+      'desctiption' => 'Video presentation of your class',
     ],
   ],
   'step' => 
