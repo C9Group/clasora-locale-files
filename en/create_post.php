@@ -102,6 +102,12 @@ return [
     [
       'required_if' => 'The country field is required when in-person is selected.',
     ],
+    'video' => 
+    [
+      'file' => 'The video must be a file.',
+      'mimes' => 'The video must be a file of type: mp4, avi, mov, wmv.',
+      'max' => 'The video may not be greater than :size MB.',
+    ],
   ],
   'final' => 
   [
