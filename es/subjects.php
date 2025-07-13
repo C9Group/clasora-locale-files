@@ -202,4 +202,5 @@ return [
   'Graphic design' => 'Diseño gráfico',
   'Guitar' => 'Guitarra',
   'Drums' => 'Batería',
+  'Violin' => 'Violín',
 ];

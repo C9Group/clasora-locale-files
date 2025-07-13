@@ -202,4 +202,5 @@ return [
   'Graphic design' => 'Grafički dizajn',
   'Guitar' => 'Gitara',
   'Drums' => 'Bubnjevi',
+  'Violin' => 'Violina',
 ];
