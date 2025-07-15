@@ -227,4 +227,13 @@ return [
   'unread' => 'unread',
   'View tutor profile' => 'View tutor profile',
   'Articles' => 'Articles',
+  'Share on Facebook' => 'Share on Facebook',
+  'Share on X' => 'Share on X',
+  'Share on LinkedIn' => 'Share on LinkedIn',
+  'Share on VK' => 'Share on VK',
+  'Share on Threads' => 'Share on Threads',
+  'Share on Linkedin' => 'Share on LinkedIn',
+  'Share' => 'Share',
+  'Share with your network' => 'Share with your network',
+  'Tutors' => 'Tutors',
 ];

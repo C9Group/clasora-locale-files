@@ -227,4 +227,13 @@ return [
   'unread' => 'недочитаний',
   'View tutor profile' => 'Оглянути анкету репетитора',
   'Articles' => 'Статті',
+  'Share on Facebook' => 'Поділитися на Facebook',
+  'Share on X' => 'Поділитися на X',
+  'Share on LinkedIn' => 'Поділитися на LinkedIn',
+  'Share on VK' => 'Поділитися на VK',
+  'Share on Threads' => 'Поділитися на Threads',
+  'Share on Linkedin' => 'Поділитися на LinkedIn',
+  'Share' => 'Поділитися',
+  'Share with your network' => 'Поділитися з вашою мережею',
+  'Tutors' => 'Репетитори',
 ];

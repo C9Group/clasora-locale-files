@@ -227,4 +227,13 @@ return [
   'Share with friends' => 'Поделитесь с друзьями',
   'View tutor profile' => 'Просмотреть профиль репетитора',
   'Articles' => 'Статьи',
+  'Share on Facebook' => 'Поделиться на Facebook',
+  'Share on X' => 'Поделиться на X',
+  'Share on LinkedIn' => 'Поделиться на LinkedIn',
+  'Share on VK' => 'Поделиться на VK',
+  'Share on Threads' => 'Поделиться на Threads',
+  'Share on Linkedin' => 'Поделиться на Linkedin',
+  'Share' => 'Поделиться',
+  'Share with your network' => 'Поделиться с вашей сетью',
+  'Tutors' => 'Репетиторы',
 ];

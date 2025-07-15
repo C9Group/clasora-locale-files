@@ -225,4 +225,13 @@ return [
   'unread' => '未读',
   'View tutor profile' => '查看导师信息',
   'Articles' => '文章',
+  'Share on Facebook' => '在Facebook上分享',
+  'Share on X' => '在X上分享',
+  'Share on LinkedIn' => '在LinkedIn上分享',
+  'Share on VK' => '在VK上分享',
+  'Share on Threads' => '在Threads上分享',
+  'Share on Linkedin' => '在LinkedIn上分享',
+  'Share' => '分享',
+  'Share with your network' => '与您的网络分享',
+  'Tutors' => '导师',
 ];

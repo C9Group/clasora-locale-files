@@ -227,4 +227,13 @@ return [
   'unread' => 'nieprzeczytane',
   'View tutor profile' => 'Zobacz profil nauczyciela',
   'Articles' => 'Artykuły',
+  'Share on Facebook' => 'Udostępnij na Facebooku',
+  'Share on X' => 'Udostępnij na X',
+  'Share on LinkedIn' => 'Udostępnij na LinkedIn',
+  'Share on VK' => 'Udostępnij na VK',
+  'Share on Threads' => 'Udostępnij na Threads',
+  'Share on Linkedin' => 'Udostępnij na Linkedin',
+  'Share' => 'Udostępnij',
+  'Share with your network' => 'Udostępnij swojej sieci',
+  'Tutors' => 'Nauczyciele',
 ];

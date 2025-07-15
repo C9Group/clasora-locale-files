@@ -227,4 +227,13 @@ return [
   'unread' => 'non lu',
   'View tutor profile' => 'Voir le profil du tuteur',
   'Articles' => 'Articles',
+  'Share on Facebook' => 'Partager sur Facebook',
+  'Share on X' => 'Partager sur X',
+  'Share on LinkedIn' => 'Partager sur LinkedIn',
+  'Share on VK' => 'Partager sur VK',
+  'Share on Threads' => 'Partager sur Threads',
+  'Share on Linkedin' => 'Partager sur Linkedin',
+  'Share' => 'Partager',
+  'Share with your network' => 'Partager avec votre réseau',
+  'Tutors' => 'Tuteurs',
 ];

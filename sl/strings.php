@@ -227,4 +227,13 @@ return [
   'unread' => 'neprebrano',
   'View tutor profile' => 'Oglejte si profil učitelja',
   'Articles' => 'Članki',
+  'Share on Facebook' => 'Deli na Facebooku',
+  'Share on X' => 'Deli na X',
+  'Share on LinkedIn' => 'Deli na LinkedIn',
+  'Share on VK' => 'Deli na VK',
+  'Share on Threads' => 'Deli na Threads',
+  'Share on Linkedin' => 'Deli na Linkedin',
+  'Share' => 'Deli',
+  'Share with your network' => 'Deli s svojo mrežo',
+  'Tutors' => 'Učitelji',
 ];
