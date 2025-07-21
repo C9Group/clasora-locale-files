@@ -137,4 +137,5 @@ return [
   'Guitar' => '吉他',
   'Drums' => '鼓',
   'Violin' => '小提琴',
+  'Scratch' => 'Scratch',
 ];
