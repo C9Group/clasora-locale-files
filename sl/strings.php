@@ -236,4 +236,5 @@ return [
   'Share' => 'Deli',
   'Share with your network' => 'Deli s svojo mrežo',
   'Tutors' => 'Učitelji',
+  'Subject' => 'Predmet',
 ];

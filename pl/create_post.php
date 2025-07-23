@@ -164,4 +164,12 @@ return [
       'placeholder' => 'Enter city',
     ],
   ],
+  'edit_step' => 
+  [
+    'title' => 'Edit Post',
+    'subject'=> [
+      'no_selected' => 'No subject selected',
+    ],
+    'request' => 'Request Changes',
+  ],
 ];

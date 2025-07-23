@@ -167,4 +167,12 @@ return [
       'continue' => '保存并继续',
     ],
   ],
+  'edit_step' => 
+  [
+    'title' => '编辑帖子',
+    'subject'=> [
+      'no_selected' => '未选择主题',
+    ],
+    'request' => '请求更改',
+  ],
 ];

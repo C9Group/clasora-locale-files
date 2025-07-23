@@ -236,4 +236,5 @@ return [
   'Share' => 'Partager',
   'Share with your network' => 'Partager avec votre réseau',
   'Tutors' => 'Tuteurs',
+  'Subject' => 'Sujet',
 ];

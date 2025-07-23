@@ -196,4 +196,12 @@ return [
       'continue' => 'Save & Continue',
     ],
   ],
+  'edit_step' => 
+  [
+    'title' => 'Edit Post',
+    'subject'=> [
+      'no_selected' => 'No subject selected',
+    ],
+    'request' => 'Request Changes',
+  ],
 ];

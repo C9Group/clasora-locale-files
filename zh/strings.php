@@ -234,4 +234,5 @@ return [
   'Share' => '分享',
   'Share with your network' => '与您的网络分享',
   'Tutors' => '导师',
+  'Subject' => '科目',
 ];

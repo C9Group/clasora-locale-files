@@ -165,4 +165,12 @@ return [
       'placeholder' => 'Saisir la ville',
     ],
   ],
+  'edit_step' => 
+  [
+    'title' => 'Modifier la publication',
+    'subject'=> [
+      'no_selected' => 'Aucun sujet sélectionné',
+    ],
+    'request' => 'Demander des modifications',
+  ],
 ];
