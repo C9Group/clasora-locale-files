@@ -236,4 +236,5 @@ return [
   'Share' => 'Share',
   'Share with your network' => 'Share with your network',
   'Tutors' => 'Tutors',
+  '(Auto-Translated)' => '(Auto-Translated)',
 ];

@@ -235,4 +235,5 @@ return [
   'Share with your network' => '与您的网络分享',
   'Tutors' => '导师',
   'Subject' => '科目',
+  '(Auto-Translated)' => '(自动翻译)',
 ];

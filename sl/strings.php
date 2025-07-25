@@ -237,4 +237,5 @@ return [
   'Share with your network' => 'Deli s svojo mrežo',
   'Tutors' => 'Učitelji',
   'Subject' => 'Predmet',
+  '(Auto-Translated)' => '(Samodejno prevedeno)',
 ];

@@ -237,4 +237,5 @@ return [
   'Share with your network' => 'Поделиться с вашей сетью',
   'Tutors' => 'Репетиторы',
   'Subject' => 'Предмет',
+  '(Auto-Translated)' => '(Автоматический перевод)',
 ];

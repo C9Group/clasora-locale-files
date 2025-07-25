@@ -237,4 +237,5 @@ return [
   'Share with your network' => 'Partager avec votre réseau',
   'Tutors' => 'Tuteurs',
   'Subject' => 'Sujet',
+  '(Auto-Translated)' => '(Auto-Traduit)',
 ];
