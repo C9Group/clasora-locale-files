@@ -16,4 +16,5 @@ return [
   'class_location' => '课程地点',
   'blogs' => '导师撰写的文章',
   'author' => '作者',
+  'alternative_language_section' => '这里有一些您可能感兴趣的外文帖子。',
 ];

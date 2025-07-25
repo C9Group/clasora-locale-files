@@ -16,4 +16,5 @@ return [
   'class_location' => 'Ubicación de la clase',
   'blogs' => 'Artículos escritos por el tutor',
   'author' => 'Autor',
+  'alternative_language_section' => 'Aquí hay algunas publicaciones en otros idiomas que podrían interesarte.',
 ];

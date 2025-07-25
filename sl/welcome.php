@@ -16,4 +16,5 @@ return [
   'class_location' => 'Lokacija razreda',
   'blogs' => 'Članki predavateljev',
   'author' => 'Avtor',
+  'alternative_language_section' => 'Tukaj je nekaj tujih objav, ki bi vas lahko zanimale.',
 ];

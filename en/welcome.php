@@ -16,4 +16,5 @@ return [
   'class_location' => 'Location of the class',
   'blogs' => 'Articles written by tutor',
   'author' => 'Author',
+  'alternative_language_section' => 'Here are some foreign posts you might be interested in.',
 ];

@@ -16,4 +16,5 @@ return [
   'class_location' => 'Lokalizacja zajęć',
   'blogs' => 'Artykuły nauczyciela',
   'author' => 'Autor',
+  'alternative_language_section' => 'Oto kilka zagranicznych postów, którymi możesz być zainteresowany.',
 ];
