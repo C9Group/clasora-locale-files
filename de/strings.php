@@ -238,4 +238,5 @@ return [
   'Tutors' => 'Tutoren',
   'Subject' => 'Fach',
   '(Auto-Translated)' => '(Automatisch übersetzt)',
+  'See original' => 'Original ansehen',
 ];

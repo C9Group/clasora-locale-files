@@ -238,4 +238,5 @@ return [
   'Tutors' => 'Tuteurs',
   'Subject' => 'Sujet',
   '(Auto-Translated)' => '(Auto-Traduit)',
+  'See original' => 'Voir l\'original',
 ];

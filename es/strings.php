@@ -238,4 +238,5 @@ return [
   'Tutors' => 'Tutores',
   'Subject' => 'Asignatura',
   '(Auto-Translated)' => '(Auto-Traducido)',
+  'See original' => 'Ver original',
 ];

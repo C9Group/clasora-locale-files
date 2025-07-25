@@ -238,4 +238,5 @@ return [
   'Tutors' => 'Nauczyciele',
   'Subject' => 'Przedmiot',
   '(Auto-Translated)' => '(Automatycznie przetłumaczone)',
+  'See original' => 'Zobacz oryginał',
 ];

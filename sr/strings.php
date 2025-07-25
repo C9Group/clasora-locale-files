@@ -237,4 +237,5 @@ return [
   'Tutors' => 'Predavači',
   'Subject' => 'Predmet',
   '(Auto-Translated)' => '(Automatski prevedeno)',
+  'See original' => 'Pogledajte original',
 ];
