@@ -1,6 +1,6 @@
 <?php
 
 return [
-  'title' => 'Cours particuliers avec des tuteurs expérimentés',
-  'description' => 'Bienvenue sur notre plateforme, un endroit où les étudiants trouvent rapidement le tuteur idéal et où les tuteurs peuvent publier leurs annonces gratuitement.',
+  'title' => 'Trouvez le professeur idéal pour un apprentissage individuel et personnalisé',
+  'description' => 'Clasora met en relation les élèves avec des professeurs passionnés pour des cours particuliers — en ligne ou en présentiel — en langues, matières scolaires, loisirs et plus encore. Sans abonnement, sans frais de plateforme.',
 ];

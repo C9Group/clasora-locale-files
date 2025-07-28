@@ -1,6 +1,6 @@
 <?php
 
 return [
-  'title' => 'Privatni časovi sa iskusnim predavačima',
-  'description' => 'Dobro došli na našu platformu, mesto gde učenici brzo pronalaze idealnog predavača, a predavači mogu besplatno postaviti svoje oglase.',
+  'title' => 'Pronađi savršenog privatnog nastavnika za individualno učenje',
+  'description' => 'Clasora povezuje učenike sa posvećenim nastavnicima za privatne časove – online ili uživo – iz jezika, školskih predmeta, hobija i još mnogo toga. Bez pretplata, bez dodatnih troškova.',
 ];

@@ -1,6 +1,6 @@
 <?php
 
 return [
-  'title' => 'Private Unterrichtsstunden mit erfahrenen Lehrern',
-  'description' => 'Willkommen auf unserer Plattform, einem Ort, an dem Schüler schnell den idealen Lehrer finden und Lehrer ihre Anzeigen kostenlos veröffentlichen können.',
+  'title' => 'Finde deinen perfekten Nachhilfelehrer für individuellen Einzelunterricht',
+  'description' => 'Clasora bringt Lernende mit engagierten Nachhilfelehrern für privaten Unterricht zusammen – online oder vor Ort – in Sprachen, Schulfächern, Hobbys und mehr. Keine Abos, keine Plattformgebühren.',
 ];

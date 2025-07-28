@@ -1,6 +1,6 @@
 <?php
 
 return [
-  'title' => 'Private lessons with experienced tutors',
-  'description' => 'Welcome to our platform, a place where students find the ideal tutor quickly and tutors can post their ads for free.',
+  'title' => 'Find Your Perfect Tutor for Private, 1-on-1 Learning',
+  'description' => 'Clasora connects students with passionate tutors for private lessons — online or in person — in languages, school subjects, hobbies, and more. No subscriptions, no platform fees.',
 ];

@@ -1,6 +1,6 @@
 <?php
 
 return [
-  'title' => 'Inštrukcije z izkušenimi učitelji',
-  'description' => 'Dobro došli na naši platformi, kjer lahko hitro najdete idealnega učitelja, učitelji pa lahko brezplačno objavijo svoje ponudbe.',
+  'title' => 'Najdi svojega popolnega zasebnega učitelja za individualno učenje',
+  'description' => 'Clasora povezuje učence s predanimi učitelji za zasebne ure – na spletu ali v živo – iz jezikov, šolskih predmetov, hobijev in še več. Brez naročnin, brez stroškov platforme.',
 ];
