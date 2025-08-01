@@ -238,4 +238,5 @@ return [
   'Tutors' => 'Tutors',
   '(Auto-Translated)' => '(Auto-Translated)',
   'See original' => 'See original',
+  'Pending approval' => 'Pending approval',
 ];

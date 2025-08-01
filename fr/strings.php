@@ -239,4 +239,5 @@ return [
   'Subject' => 'Sujet',
   '(Auto-Translated)' => '(Auto-Traduit)',
   'See original' => 'Voir l\'original',
+  'Pending approval' => 'En attente d\'approbation',
 ];

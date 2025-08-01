@@ -239,4 +239,5 @@ return [
   'Subject' => 'Fach',
   '(Auto-Translated)' => '(Automatisch übersetzt)',
   'See original' => 'Original ansehen',
+  'Pending approval' => 'Genehmigung ausstehend',
 ];

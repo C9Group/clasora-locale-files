@@ -239,4 +239,5 @@ return [
   'Subject' => 'Asignatura',
   '(Auto-Translated)' => '(Auto-Traducido)',
   'See original' => 'Ver original',
+  'Pending approval' => 'Pendiente de aprobación',
 ];

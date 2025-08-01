@@ -239,4 +239,5 @@ return [
   'Subject' => 'Предмет',
   '(Auto-Translated)' => '(Автоматический перевод)',
   'See original' => 'Посмотреть оригинал',
+  'Pending approval' => 'Ожидает одобрения',
 ];

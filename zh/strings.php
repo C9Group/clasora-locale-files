@@ -237,4 +237,5 @@ return [
   'Subject' => '科目',
   '(Auto-Translated)' => '(自动翻译)',
   'See original' => '查看原文',
+  'Pending approval' => '待批准',
 ];

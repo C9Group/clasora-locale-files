@@ -239,4 +239,5 @@ return [
   'Subject' => 'Predmet',
   '(Auto-Translated)' => '(Samodejno prevedeno)',
   'See original' => 'Poglej izvirnik',
+  'Pending approval' => 'Čaka na odobritev',
 ];
