@@ -3,42 +3,48 @@
 return [
   'validation' => 
   [
-    'subject_id' => 'You have already submitted a post for this subject.',
+    'subject_id' => 'Już wysłałeś post dla tego przedmiotu.',
     'description' => 
     [
-      'required' => 'The description field is required for each language.',
-      'string' => 'The description must be a string for each language.',
-      'min' => 'The description must be at least :chars characters long.',
+      'required' => 'Pole opisu jest wymagane dla każdego języka.',
+      'string' => 'Opis musi być ciągiem znaków dla każdego języka.',
+      'min' => 'Opis musi mieć co najmniej :chars znaków.',
     ],
     'city' => 
     [
-      'required_if' => 'The city field is required when in-person is selected.',
+      'required_if' => 'Pole miasto jest wymagane, gdy wybrane jest spotkanie osobiste.',
     ],
     'country' => 
     [
-      'required_if' => 'The country field is required when in-person is selected.',
+      'required_if' => 'Pole kraj jest wymagane, gdy wybrane jest spotkanie osobiste.',
+    ],
+    'video' => 
+    [
+      'file' => 'Wideo musi być plikiem.',
+      'mimes' => 'Wideo musi być plikiem typu: mp4, avi, mov, wmv.',
+      'max' => 'Wideo nie może być większe niż :size MB.',
     ],
   ],
   'final' => 
   [
     'title' => 
     [
-      'welcome' => 'Almost There!',
-      'question' => 'What\'s Next?',
+      'welcome' => 'Prawie gotowe!',
+      'question' => 'Co dalej?',
     ],
     'description' => 
     [
-      'welcome' => 'Thank you for your submission! We are currently reviewing your post to ensure everything meets our guidelines.',
-      'approve' => 'Our team will approve your post shortly.',
-      'notification' => 'You wll receive a notification once it is live!',
-      'questions' => 'If you have any questions or need assistance, feel free to reach out.',
-      'thank_you_note' => 'Thank you for your patience!',
+      'welcome' => 'Dziękujemy za przesłanie! Obecnie sprawdzamy twój post, aby upewnić się, że wszystko spełnia nasze wytyczne.',
+      'approve' => 'Nasz zespół wkrótce zatwierdzi twój post.',
+      'notification' => 'Otrzymasz powiadomienie, gdy zostanie opublikowany!',
+      'questions' => 'Jeśli masz jakieś pytania lub potrzebujesz pomocy, śmiało się odezwij.',
+      'thank_you_note' => 'Dziękujemy za cierpliwość!',
     ],
     'go' => 
     [
       'to' => 
       [
-        'dashboard' => 'Go to Dashboard',
+        'dashboard' => 'Przejdź do panelu',
       ],
     ],
   ],
@@ -46,130 +52,156 @@ return [
   [
     'step1' => 
     [
-      'heading' => 'Enter the post information',
-      'description' => 'Details about the subject and the languages',
+      'heading' => 'Wprowadź informacje o poście',
+      'description' => 'Szczegóły dotyczące przedmiotu i języków',
     ],
     'step2' => 
     [
-      'heading' => 'Write Description',
-      'desctiption' => 'Translate the post description',
+      'heading' => 'Napisz opis',
+      'desctiption' => 'Przetłumacz opis postu',
     ],
     'step3' => 
     [
-      'heading' => 'Location and Price',
-      'desctiption' => 'Specify the lesson location and pricing',
+      'heading' => 'Lokalizacja i cena',
+      'desctiption' => 'Określ lokalizację lekcji i cennik',
+    ],
+    'step4' => 
+    [
+      'heading' => 'Prezentacja wideo',
+      'desctiption' => 'Prezentacja wideo twojej klasy',
     ],
   ],
   'step' => 
   [
-    'title' => 'Create New Post',
-    'description' => 'Before starting to teach on our platform, you need to tell us what is the subject of your class, languages you speak and some other information. Please fill in the information below.',
+    'title' => 'Utwórz nowy post',
+    'description' => 'Zanim zaczniesz uczyć na naszej platformie, musisz powiedzieć nam, jaki jest przedmiot twojej klasy, jakie języki mówisz i kilka innych informacji. Proszę wypełnij poniższe informacje.',
+    'pause_button' => 'Wstrzymaj post',
+    'resume_button' => 'Wznów post',
   ],
   'step1' => 
   [
-    'title' => 'Post Information',
+    'title' => 'Informacje o poście',
     'subject' => 
     [
-      'title' => 'Select the subject you teach',
-      'description' => 'If the subject you teach is not listed, please contact us via',
-      'select' => 'Select Subject',
+        'title' => 'Wybierz przedmiot, który nauczasz',
+        'description' => 'Jeśli przedmiot, który nauczasz, nie jest wymieniony, skontaktuj się z nami przez',
+        'select' => 'Wybierz przedmiot',
     ],
-    'choose' => 'Choose',
-    'choosen' => 'Choosen',
-    'remove' => 'Remove',
+    'choose' => 'Wybierz',
+    'choosen' => 'Wybrany',
+    'remove' => 'Usuń',
     'tags' => 
     [
-      'select' => 'Select tags',
-      'description' => 'Please select relevant tags that you think are best aligned with your class',
+      'select' => 'Wybierz tagi',
+      'description' => 'Proszę wybrać odpowiednie tagi, które Twoim zdaniem najlepiej pasują do twojej klasy',
       'suggest' => 
       [
-        'description' => 'If you have other tags in mind that aren\'t listed, feel free to suggest them as comma-separated values. Your input is always appreciated!',
+        'description' => 'Jeśli masz na myśli inne tagi, które nie są wymienione, możesz je zasugerować jako wartości oddzielone przecinkami. Twój wkład jest zawsze doceniany!',
+        'title' => 'Zasugeruj nowe tagi',
       ],
-      'suggestions' => 'Suggested Tag1, Suggested Tag2',
+      'suggestions' => 'Sugerowany Tag1, Sugerowany Tag2',
     ],
     'languages' => 
     [
-      'title' => 'Select languages you teach the subject in',
-      'description' => 'Please select all the languages you are comfortable teaching the subject in. You can select more than one language',
-      'select' => 'Select Languages',
+      'title' => 'Wybierz języki, w których nauczasz przedmiotu',
+      'description' => 'Proszę wybrać wszystkie języki, w których czujesz się komfortowo nauczając przedmiotu. Możesz wybrać więcej niż jeden język',
+      'select' => 'Wybierz języki',
     ],
     'save' => 
     [
-      'continue' => 'Save & Continue',
+      'continue' => 'Zapisz i Kontynuuj',
     ],
   ],
   'step2' => 
   [
-    'title' => 'Write Description',
-    'info' => 'Please don\'t include your phone number or website links',
-    'description' => 'Introduce yourself briefly, mentioning your qualifications and teaching experience. Describe how your lessons are organized and your teaching style. Explain what students will achieve or learn from your classes.',
+    'title' => 'Napisz opis',
+    'info' => 'Proszę nie podawać numeru telefonu ani linków do stron internetowych',
+    'description' => 'Przedstaw się krótko, wspominając o swoich kwalifikacjach i doświadczeniu w nauczaniu. Opisz, jak zorganizowane są twoje lekcje i jaki jest twój styl nauczania. Wyjaśnij, co uczniowie osiągną lub nauczą się z twoich zajęć.',
     'message' => 
     [
-      'warning' => 'Please enter at least :chars characters',
+      'warning' => 'Proszę wprowadzić co najmniej :chars znaków',
     ],
     'write' => 
     [
-      'description' => 'Write description in',
-      'placeholder' => 'Enter description',
+      'description' => 'Napisz opis w',
+      'placeholder' => 'Wprowadź opis',
     ],
     'post' => 
     [
-      'information' => 'Post Information',
+      'information' => 'Informacje o poście',
     ],
     'save' => 
     [
-      'continue' => 'Save & Continue',
+      'continue' => 'Zapisz i Kontynuuj',
     ],
   ],
   'step3' => 
   [
-    'title' => 'Location and Price',
-    'subtitle' => 'Location',
-    'online' => 'Is class online:',
-    'yes' => 'Yes',
-    'no' => 'No',
-    'in_person' => 'Is class in person:',
+    'title' => 'Lokalizacja i cena',
+    'subtitle' => 'Lokalizacja',
+    'online' => 'Czy zajęcia są online:',
+    'yes' => 'Tak',
+    'no' => 'Nie',
+    'in_person' => 'Czy zajęcia są osobiste:',
     'duration' => 
     [
-      'description' => 'Set the duration of your class (minutes)',
-      'title' => 'Duration',
-      'placeholder' => 'Enter duration',
+      'description' => 'Ustaw czas trwania swojej klasy (minuty)',
+      'title' => 'Czas trwania',
+      'placeholder' => 'Wprowadź czas trwania',
     ],
     'price' => 
     [
-      'description' => 'Set the price for your class',
-      'title' => 'Price',
-      'placeholder' => 'Enter price',
+      'description' => 'Ustaw cenę za swoją klasę',
+      'title' => 'Cena',
+      'placeholder' => 'Wprowadź cenę',
     ],
     'currency' => 
     [
-      'description' => 'Select the currency for your class',
-      'title' => 'Currency',
-      'select' => 'Select currency',
+      'description' => 'Wybierz walutę dla swojej klasy',
+      'title' => 'Waluta',
+      'select' => 'Wybierz walutę',
     ],
-    'choose' => 'Choose',
+    'choose' => 'Wybierz',
     'submit' => 
     [
-      'post' => 'Submit Post',
+      'post' => 'Wyślij post',
     ],
-    'description' => 'Description',
+    'description' => 'Opis',
     'country' => 
     [
-      'title' => 'Country',
-      'placeholder' => 'Enter country',
+      'title' => 'Kraj',
+      'placeholder' => 'Wprowadź kraj',
     ],
     'city' => 
     [
-      'title' => 'City',
-      'placeholder' => 'Enter city',
+      'title' => 'Miasto',
+      'placeholder' => 'Wprowadź miasto',
+    ],
+    'continue' => 'Zapisz i Kontynuuj',
+  ],
+  'step4' => 
+  [
+    'video' => 
+    [
+      'description' => 'Zaprezentuj swoją klasę w angażującym filmie',
+      'title' => 'Prezentacja wideo klasy',
+      'choose' => 'Wybierz Wideo',
+      'change' => 'Zmień Wideo',
+      'selected' => 'Wybrane Wideo',
+      'size' => 'Rozmiar wideo nie powinien przekraczać :size MB',
+    ],
+    'title' => 'Prezentacja wideo',
+    'submit' => 
+    [
+      'post' => 'Wyślij Post',
     ],
   ],
   'edit_step' => 
   [
-    'title' => 'Edit Post',
+    'title' => 'Edytuj post',
     'subject'=> [
-      'no_selected' => 'No subject selected',
+      'no_selected' => 'Nie wybrano przedmiotu',
     ],
-    'request' => 'Request Changes',
+    'request' => 'Poproś o zmiany',
   ],
 ];

@@ -3,42 +3,48 @@
 return [
   'validation' => 
   [
-    'subject_id' => 'You have already submitted a post for this subject.',
+    'subject_id' => 'Вы уже отправили пост для этого предмета.',
     'description' => 
     [
-      'required' => 'The description field is required for each language.',
-      'string' => 'The description must be a string for each language.',
-      'min' => 'The description must be at least :chars characters long.',
+      'required' => 'Поле описания обязательно для каждого языка.',
+      'string' => 'Описание должно быть строкой для каждого языка.',
+      'min' => 'Описание должно содержать не менее :chars символов.',
     ],
     'city' => 
     [
-      'required_if' => 'The city field is required when in-person is selected.',
+      'required_if' => 'Поле города обязательно, когда выбрано очное обучение.',
     ],
     'country' => 
     [
-      'required_if' => 'The country field is required when in-person is selected.',
+      'required_if' => 'Поле страны обязательно, когда выбрано очное обучение.',
+    ],
+    'video' => 
+    [
+      'file' => 'Видео должно быть файлом.',
+      'mimes' => 'Видео должно быть файлом типа: mp4, avi, mov, wmv.',
+      'max' => 'Видео не может быть больше :size МБ.',
     ],
   ],
   'final' => 
   [
     'title' => 
     [
-      'welcome' => 'Almost There!',
-      'question' => 'What\'s Next?',
+      'welcome' => 'Почти готово!',
+      'question' => 'Что дальше?',
     ],
     'description' => 
     [
-      'welcome' => 'Thank you for your submission! We are currently reviewing your post to ensure everything meets our guidelines.',
-      'approve' => 'Our team will approve your post shortly.',
-      'notification' => 'You wll receive a notification once it is live!',
-      'questions' => 'If you have any questions or need assistance, feel free to reach out.',
-      'thank_you_note' => 'Thank you for your patience!',
+      'welcome' => 'Спасибо за ваше заявление! Мы в настоящее время рассматриваем ваш пост, чтобы убедиться, что все соответствует нашим правилам.',
+      'approve' => 'Наша команда скоро одобрит ваш пост.',
+      'notification' => 'Вы получите уведомление, как только он будет опубликован!',
+      'questions' => 'Если у вас есть вопросы или нужна помощь, не стесняйтесь обращаться.',
+      'thank_you_note' => 'Спасибо за ваше терпение!',
     ],
     'go' => 
     [
       'to' => 
       [
-        'dashboard' => 'Go to Dashboard',
+        'dashboard' => 'Перейти к панели управления',
       ],
     ],
   ],
@@ -46,130 +52,156 @@ return [
   [
     'step1' => 
     [
-      'heading' => 'Enter the post information',
-      'description' => 'Details about the subject and the languages',
+      'heading' => 'Введите информацию о посте',
+      'description' => 'Подробности о предмете и языках',
     ],
     'step2' => 
     [
-      'heading' => 'Write Description',
-      'desctiption' => 'Translate the post description',
+      'heading' => 'Написать описание',
+      'desctiption' => 'Перевести описание поста',
     ],
     'step3' => 
     [
-      'heading' => 'Location and Price',
-      'desctiption' => 'Specify the lesson location and pricing',
+      'heading' => 'Местоположение и цена',
+      'desctiption' => 'Укажите место проведения урока и цены',
+    ],
+    'step4' => 
+    [
+      'heading' => 'Видео-презентация',
+      'desctiption' => 'Видео-презентация вашего класса',
     ],
   ],
   'step' => 
   [
-    'title' => 'Create New Post',
-    'description' => 'Before starting to teach on our platform, you need to tell us what is the subject of your class, languages you speak and some other information. Please fill in the information below.',
+    'title' => 'Создать новый пост',
+    'description' => 'Прежде чем начать преподавать на нашей платформе, вам нужно рассказать нам, какой предмет вашего класса, на каких языках вы говорите и некоторую другую информацию. Пожалуйста, заполните информацию ниже.',
+    'pause_button' => 'Приостановить пост',
+    'resume_button' => 'Возобновить пост',
   ],
   'step1' => 
   [
-    'title' => 'Post Information',
+    'title' => 'Информация о посте',
     'subject' => 
     [
-      'title' => 'Select the subject you teach',
-      'description' => 'If the subject you teach is not listed, please contact us via',
-      'select' => 'Select Subject',
+      'title' => 'Выберите предмет, который вы преподаете',
+      'description' => 'Если предмет, который вы преподаете, не указан, пожалуйста, свяжитесь с нами через',
+      'select' => 'Выберите предмет',
     ],
-    'choose' => 'Choose',
-    'choosen' => 'Choosen',
-    'remove' => 'Remove',
+    'choose' => 'Выбрать',
+    'choosen' => 'Выбрано',
+    'remove' => 'Удалить',
     'tags' => 
     [
-      'select' => 'Select tags',
-      'description' => 'Please select relevant tags that you think are best aligned with your class',
+      'select' => 'Выберите теги',
+      'description' => 'Пожалуйста, выберите соответствующие теги, которые, по вашему мнению, лучше всего подходят для вашего класса',
       'suggest' => 
       [
-        'description' => 'If you have other tags in mind that aren\'t listed, feel free to suggest them as comma-separated values. Your input is always appreciated!',
+        'description' => 'Если у вас есть другие теги, которые не перечислены, не стесняйтесь предложить их как значения, разделенные запятыми. Ваш вклад всегда ценится!',
+        'title' => 'Предложить новые теги',
       ],
-      'suggestions' => 'Suggested Tag1, Suggested Tag2',
+      'suggestions' => 'Предлагаемый Тег1, Предлагаемый Тег2',
     ],
     'languages' => 
     [
-      'title' => 'Select languages you teach the subject in',
-      'description' => 'Please select all the languages you are comfortable teaching the subject in. You can select more than one language',
-      'select' => 'Select Languages',
+      'title' => 'Выберите языки, на которых вы преподаете предмет',
+      'description' => 'Пожалуйста, выберите все языки, на которых вам комфортно преподавать предмет. Вы можете выбрать более одного языка',
+      'select' => 'Выберите языки',
     ],
     'save' => 
     [
-      'continue' => 'Save & Continue',
+      'continue' => 'Сохранить и продолжить',
     ],
   ],
   'step2' => 
   [
-    'title' => 'Write Description',
-    'info' => 'Please don\'t include your phone number or website links',
-    'description' => 'Introduce yourself briefly, mentioning your qualifications and teaching experience. Describe how your lessons are organized and your teaching style. Explain what students will achieve or learn from your classes.',
+    'title' => 'Написать описание',
+    'info' => 'Пожалуйста, не указывайте свой номер телефона или ссылки на веб-сайты',
+    'description' => 'Кратко представьтесь, упомянув свою квалификацию и опыт преподавания. Опишите, как организованы ваши уроки и ваш стиль преподавания. Объясните, чего достигнут или чему научатся студенты на ваших занятиях.',
     'message' => 
     [
-      'warning' => 'Please enter at least :chars characters',
+      'warning' => 'Пожалуйста, введите не менее :chars символов',
     ],
     'write' => 
     [
-      'description' => 'Write description in',
-      'placeholder' => 'Enter description',
+      'description' => 'Написать описание на',
+      'placeholder' => 'Введите описание',
     ],
     'post' => 
     [
-      'information' => 'Post Information',
+      'information' => 'Информация о посте',
     ],
     'save' => 
     [
-      'continue' => 'Save & Continue',
+      'continue' => 'Сохранить и продолжить',
     ],
   ],
   'step3' => 
   [
-    'title' => 'Location and Price',
-    'subtitle' => 'Location',
-    'online' => 'Is class online:',
-    'yes' => 'Yes',
-    'no' => 'No',
-    'in_person' => 'Is class in person:',
+    'title' => 'Местоположение и цена',
+    'subtitle' => 'Местоположение',
+    'online' => 'Класс онлайн:',
+    'yes' => 'Да',
+    'no' => 'Нет',
+    'in_person' => 'Класс лично:',
     'duration' => 
     [
-      'description' => 'Set the duration of your class (minutes)',
-      'title' => 'Duration',
-      'placeholder' => 'Enter duration',
+      'description' => 'Задайте продолжительность вашего класса (минуты)',
+      'title' => 'Продолжительность',
+      'placeholder' => 'Введите продолжительность',
     ],
     'price' => 
     [
-      'description' => 'Set the price for your class',
-      'title' => 'Price',
-      'placeholder' => 'Enter price',
+      'description' => 'Установите цену за ваш класс',
+      'title' => 'Цена',
+      'placeholder' => 'Введите цену',
     ],
     'currency' => 
     [
-      'description' => 'Select the currency for your class',
-      'title' => 'Currency',
-      'select' => 'Select currency',
+      'description' => 'Выберите валюту для вашего класса',
+      'title' => 'Валюта',
+      'select' => 'Выберите валюту',
     ],
-    'choose' => 'Choose',
+    'choose' => 'Выбрать',
     'submit' => 
     [
-      'post' => 'Submit Post',
+      'post' => 'Отправить пост',
     ],
-    'description' => 'Description',
+    'description' => 'Описание',
     'country' => 
     [
-      'title' => 'Country',
-      'placeholder' => 'Enter country',
+      'title' => 'Страна',
+      'placeholder' => 'Введите страну',
     ],
     'city' => 
     [
-      'title' => 'City',
-      'placeholder' => 'Enter city',
+      'title' => 'Город',
+      'placeholder' => 'Введите город',
+    ],
+    'continue' => 'Сохранить и Продолжить',
+  ],
+  'step4' => 
+  [
+    'video' => 
+    [
+      'description' => 'Представьте свой класс в увлекательном видео',
+      'title' => 'Видео-презентация класса',
+      'choose' => 'Выбрать Видео',
+      'change' => 'Изменить Видео',
+      'selected' => 'Выбранное Видео',
+      'size' => 'Размер видео не должен превышать :size МБ',
+    ],
+    'title' => 'Видео-презентация',
+    'submit' => 
+    [
+      'post' => 'Отправить Пост',
     ],
   ],
   'edit_step' => 
   [
-    'title' => 'Edit Post',
+    'title' => 'Редактировать пост',
     'subject'=> [
-      'no_selected' => 'No subject selected',
+      'no_selected' => 'Предмет не выбран',
     ],
-    'request' => 'Request Changes',
+    'request' => 'Запросить изменения',
   ],
 ];

@@ -66,6 +66,24 @@ return [
       'title' => 'Država',
       'placeholder' => 'Unesite državu',
     ],
+    'continue' => 'Sačuvaj i nastavi',
+  ],
+  'step4' => 
+  [
+    'video' => 
+    [
+      'description' => 'Predstavite svoj čas kroz zanimljiv video',
+      'title' => 'Video prezentacija časa',
+      'choose' => 'Odaberite video',
+      'change' => 'Promenite video',
+      'selected' => 'Odabrani video',
+      'size' => 'Veličina video fajla ne sme biti veća od :size MB',
+    ],
+    'title' => 'Video prezentacija',
+    'submit' => 
+    [
+      'post' => 'Pošaljite oglas',
+    ],
   ],
   'validation' => 
   [
@@ -83,6 +101,12 @@ return [
     'country' => 
     [
       'required_if' => 'Država je obavezno polje kada se čas održava uživo.',
+    ],
+    'video' => 
+    [
+      'file' => 'Video mora biti fajl.',
+      'mimes' => 'Video mora biti fajl tipa: mp4, avi, mov, wmv.',
+      'max' => 'Video ne sme biti veći od :size MB.',
     ],
   ],
   'final' => 
@@ -125,11 +149,18 @@ return [
       'heading' => 'Lokacija i Cena',
       'desctiption' => 'Navedite lokaciju i cenu časa',
     ],
+    'step4' => 
+    [
+      'heading' => 'Video prezentacija',
+      'desctiption' => 'Video prezentacija vašeg časa',
+    ],
   ],
   'step' => 
   [
     'title' => 'Kreiraj novi oglas',
     'description' => 'Pre nego što počnete da predajete na našoj platformi, potrebno je da nam kažete koji predmet predajete, jezike koje govorite i neke druge informacije. Molimo vas da popunite informacije u nastavku.',
+    'pause_button' => 'Pauziraj oglas',
+    'resume_button' => 'Nastavi oglas',
   ],
   'step1' => 
   [
@@ -167,10 +198,10 @@ return [
   ],
   'edit_step' => 
   [
-    'title' => 'Edit Post',
+    'title' => 'Uredite oglas',
     'subject'=> [
-      'no_selected' => 'No subject selected',
+      'no_selected' => 'Nije odabran predmet',
     ],
-    'request' => 'Request Changes',
+    'request' => 'Zahtevajte izmene',
   ],
 ];

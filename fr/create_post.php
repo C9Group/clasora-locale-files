@@ -59,11 +59,18 @@ return [
       'heading' => 'Lieu et prix',
       'desctiption' => 'Précisez le lieu du cours et la tarification',
     ],
+    'step4' => 
+    [
+      'heading' => 'Présentation vidéo',
+      'desctiption' => 'Présentation vidéo de votre cours',
+    ],
   ],
   'step' => 
   [
     'title' => 'Créer une nouvelle publication',
     'description' => 'Avant de commencer à enseigner sur notre plateforme, vous devez nous indiquer la matière de votre cours, les langues que vous parlez et d\'autres informations. Veuillez remplir les informations ci-dessous.',
+    'pause_button' => 'Suspendre la publication',
+    'resume_button' => 'Reprendre la publication',
   ],
   'step1' => 
   [
@@ -163,6 +170,48 @@ return [
     [
       'title' => 'Ville',
       'placeholder' => 'Saisir la ville',
+    ],
+    'continue' => 'Enregistrer et continuer',
+  ],
+  'step4' => 
+  [
+    'video' => 
+    [
+      'description' => 'Présentez votre cours dans une vidéo captivante',
+      'title' => 'Présentation vidéo du cours',
+      'choose' => 'Choisir la vidéo',
+      'change' => 'Changer la vidéo',
+      'selected' => 'Vidéo sélectionnée',
+      'size' => 'La taille de la vidéo ne doit pas dépasser :size MB',
+    ],
+    'title' => 'Présentation vidéo',
+    'submit' => 
+    [
+      'post' => 'Soumettre la publication',
+    ],
+  ],
+  'validation' => 
+  [
+    'subject_id' => 'Vous avez déjà soumis une publication pour cette matière.',
+    'description' => 
+    [
+      'required' => 'Le champ de description est obligatoire pour chaque langue.',
+      'string' => 'La description doit être une chaîne de caractères pour chaque langue.',
+      'min' => 'La description doit comporter au moins :chars caractères.',
+    ],
+    'city' => 
+    [
+      'required_if' => 'Le champ « ville » est obligatoire lorsque l\'option « en personne » est sélectionnée.',
+    ],
+    'country' => 
+    [
+      'required_if' => 'Le champ « pays » est obligatoire lorsque l\'option « en personne » est sélectionnée.',
+    ],
+    'video' => 
+    [
+      'file' => 'La vidéo doit être un fichier.',
+      'mimes' => 'La vidéo doit être un fichier de type : mp4, avi, mov, wmv.',
+      'max' => 'La vidéo ne peut pas faire plus de :size MB.',
     ],
   ],
   'edit_step' => 

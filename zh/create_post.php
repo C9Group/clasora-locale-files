@@ -9,7 +9,7 @@ return [
       'description' => '在此写入描述',
     ],
     'title' => '写入描述',
-    'info' => '‌隐私安全提示，请勿包含电话或网址‌链接',
+    'info' => '隐私安全提示，请勿包含电话或网址链接',
     'description' => '简要介绍下自己，涉及你的资格和教学经验。描述你的课程是如何组织的以及你的教学风格。概括下学生将从你的课堂上获得了什么或学到了什么。',
     'message' => 
     [
@@ -51,9 +51,9 @@ return [
     'in_person' => '是否单独授课：',
     'currency' => 
     [
-      'description' => '选择课程类型',
-      'title' => '状态',
-      'select' => '选择状态',
+      'description' => '选择课程货币',
+      'title' => '货币',
+      'select' => '选择货币',
     ],
     'choose' => '选择',
     'submit' => 
@@ -65,6 +65,24 @@ return [
     [
       'title' => '国家',
       'placeholder' => '输入国家名称',
+    ],
+    'continue' => '保存并继续',
+  ],
+  'step4' => 
+  [
+    'video' => 
+    [
+      'description' => '通过引人入胜的视频展示你的课程',
+      'title' => '课程视频展示',
+      'choose' => '选择视频',
+      'change' => '更换视频',
+      'selected' => '已选视频',
+      'size' => '视频大小不应超过 :size MB',
+    ],
+    'title' => '视频展示',
+    'submit' => 
+    [
+      'post' => '提交信息',
     ],
   ],
   'validation' => 
@@ -78,11 +96,17 @@ return [
     ],
     'city' => 
     [
-      'required_if' => '选择“单独授课”时，城市名称是必填项。',
+      'required_if' => '选择"单独授课"时，城市名称是必填项。',
     ],
     'country' => 
     [
-      'required_if' => '选择“单独授课”时，国家名称是必填项。',
+      'required_if' => '选择"单独授课"时，国家名称是必填项。',
+    ],
+    'video' => 
+    [
+      'file' => '视频必须是文件。',
+      'mimes' => '视频必须是以下类型的文件：mp4、avi、mov、wmv。',
+      'max' => '视频不能大于 :size MB。',
     ],
   ],
   'final' => 
@@ -125,13 +149,18 @@ return [
       'heading' => '位置与价格',
       'desctiption' => '设置课程地点和价格',
     ],
+    'step4' => 
+    [
+      'heading' => '视频展示',
+      'desctiption' => '您的课程视频展示',
+    ],
   ],
   'step' => 
   [
     'title' => '创建新帖子',
     'description' => '在我们的平台上教学之前，您需要告诉我们您的课程主题和您所说的语言以及其他相关信息，请填写以下信息。',
     'pause_button' => '暂时保存',
-    'resume_button' => '简历职位',
+    'resume_button' => '恢复帖子',
   ],
   'step1' => 
   [

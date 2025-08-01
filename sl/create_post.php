@@ -3,42 +3,48 @@
 return [
   'validation' => 
   [
-    'subject_id' => 'You have already submitted a post for this subject.',
+    'subject_id' => 'Za ta predmet ste že oddali objavo.',
     'description' => 
     [
-      'required' => 'The description field is required for each language.',
-      'string' => 'The description must be a string for each language.',
-      'min' => 'The description must be at least :chars characters long.',
+      'required' => 'Polje opisa je obvezno za vsak jezik.',
+      'string' => 'Opis mora biti niz za vsak jezik.',
+      'min' => 'Opis mora biti dolg najmanj :chars znakov.',
     ],
     'city' => 
     [
-      'required_if' => 'The city field is required when in-person is selected.',
+      'required_if' => 'Polje mesta je obvezno, ko je izbrano osebno.',
     ],
     'country' => 
     [
-      'required_if' => 'The country field is required when in-person is selected.',
+      'required_if' => 'Polje države je obvezno, ko je izbrano osebno.',
+    ],
+    'video' => 
+    [
+      'file' => 'Video mora biti datoteka.',
+      'mimes' => 'Video mora biti datoteka tipa: mp4, avi, mov, wmv.',
+      'max' => 'Video ne sme biti večji od :size MB.',
     ],
   ],
   'final' => 
   [
     'title' => 
     [
-      'welcome' => 'Almost There!',
-      'question' => 'What\'s Next?',
+      'welcome' => 'Skoraj smo tam!',
+      'question' => 'Kaj sledi?',
     ],
     'description' => 
     [
-      'welcome' => 'Thank you for your submission! We are currently reviewing your post to ensure everything meets our guidelines.',
-      'approve' => 'Our team will approve your post shortly.',
-      'notification' => 'You wll receive a notification once it is live!',
-      'questions' => 'If you have any questions or need assistance, feel free to reach out.',
-      'thank_you_note' => 'Thank you for your patience!',
+      'welcome' => 'Hvala za vašo prijavo! Trenutno pregledujemo vašo objavo, da zagotovimo, da vse izpolnjuje naše smernice.',
+      'approve' => 'Naša ekipa bo kmalu odobrila vašo objavo.',
+      'notification' => 'Prejeli boste obvestilo, ko bo objavljena!',
+      'questions' => 'Če imate kakšna vprašanja ali potrebujete pomoč, se obrnite na nas.',
+      'thank_you_note' => 'Hvala za potrpežljivost!',
     ],
     'go' => 
     [
       'to' => 
       [
-        'dashboard' => 'Go to Dashboard',
+        'dashboard' => 'Pojdi na nadzorno ploščo',
       ],
     ],
   ],
@@ -46,130 +52,156 @@ return [
   [
     'step1' => 
     [
-      'heading' => 'Enter the post information',
-      'description' => 'Details about the subject and the languages',
+      'heading' => 'Vnesite informacije objave',
+      'description' => 'Podrobnosti o predmetu in jezikih',
     ],
     'step2' => 
     [
-      'heading' => 'Write Description',
-      'desctiption' => 'Translate the post description',
+      'heading' => 'Napišite opis',
+      'desctiption' => 'Prevedite opis objave',
     ],
     'step3' => 
     [
-      'heading' => 'Location and Price',
-      'desctiption' => 'Specify the lesson location and pricing',
+      'heading' => 'Lokacija in cena',
+      'desctiption' => 'Določite lokacijo učne ure in cene',
+    ],
+    'step4' => 
+    [
+      'heading' => 'Video predstavitev',
+      'desctiption' => 'Video predstavitev vašega razreda',
     ],
   ],
   'step' => 
   [
-    'title' => 'Create New Post',
-    'description' => 'Before starting to teach on our platform, you need to tell us what is the subject of your class, languages you speak and some other information. Please fill in the information below.',
+    'title' => 'Ustvari novo objavo',
+    'description' => 'Preden začnete poučevati na naši platformi, nam morate povedati, kakšen je predmet vašega razreda, katere jezike govorite in nekaj drugih informacij. Prosimo, izpolnite spodnje informacije.',
+    'pause_button' => 'Začasno ustavi objavo',
+    'resume_button' => 'Nadaljuj objavo',
   ],
   'step1' => 
   [
-    'title' => 'Post Information',
+    'title' => 'Informacije objave',
     'subject' => 
     [
-      'title' => 'Select the subject you teach',
-      'description' => 'If the subject you teach is not listed, please contact us via',
-      'select' => 'Select Subject',
+      'title' => 'Izberite predmet, ki ga poučujete',
+      'description' => 'Če predmet, ki ga poučujete, ni naveden, nas prosim kontaktirajte preko',
+      'select' => 'Izberite predmet',
     ],
-    'choose' => 'Choose',
-    'choosen' => 'Choosen',
-    'remove' => 'Remove',
+    'choose' => 'Izberi',
+    'choosen' => 'Izbrano',
+    'remove' => 'Odstrani',
     'tags' => 
     [
-      'select' => 'Select tags',
-      'description' => 'Please select relevant tags that you think are best aligned with your class',
+      'select' => 'Izberite oznake',
+      'description' => 'Prosimo, izberite ustrezne oznake, za katere mislite, da se najbolje ujemajo z vašim razredom',
       'suggest' => 
       [
-        'description' => 'If you have other tags in mind that aren\'t listed, feel free to suggest them as comma-separated values. Your input is always appreciated!',
+        'description' => 'Če imate v mislih druge oznake, ki niso navedene, jih prosim predlagajte kot vrednosti, ločene z vejicami. Vaš prispevek je vedno cenjen!',
+        'title' => 'Predlagajte nove oznake',
       ],
-      'suggestions' => 'Suggested Tag1, Suggested Tag2',
+      'suggestions' => 'Predlagana oznaka1, Predlagana oznaka2',
     ],
     'languages' => 
     [
-      'title' => 'Select languages you teach the subject in',
-      'description' => 'Please select all the languages you are comfortable teaching the subject in. You can select more than one language',
-      'select' => 'Select Languages',
+      'title' => 'Izberite jezike, v katerih poučujete predmet',
+      'description' => 'Prosimo, izberite vse jezike, v katerih se počutite udobno pri poučevanju predmeta. Lahko izberete več kot en jezik',
+      'select' => 'Izberite jezike',
     ],
     'save' => 
     [
-      'continue' => 'Save & Continue',
+      'continue' => 'Shrani in nadaljuj',
     ],
   ],
   'step2' => 
   [
-    'title' => 'Write Description',
-    'info' => 'Please don\'t include your phone number or website links',
-    'description' => 'Introduce yourself briefly, mentioning your qualifications and teaching experience. Describe how your lessons are organized and your teaching style. Explain what students will achieve or learn from your classes.',
+    'title' => 'Napišite opis',
+    'info' => 'Prosimo, ne vključujte svoje telefonske številke ali povezav do spletnih strani',
+    'description' => 'Kratko se predstavite, omenite svoje kvalifikacije in izkušnje s poučevanjem. Opišite, kako so organizirane vaše učne ure in vaš slog poučevanja. Razložite, kaj bodo študenti dosegli ali se naučili v vaših razredih.',
     'message' => 
     [
-      'warning' => 'Please enter at least :chars characters',
+      'warning' => 'Prosimo, vnesite najmanj :chars znakov',
     ],
     'write' => 
     [
-      'description' => 'Write description in',
-      'placeholder' => 'Enter description',
+      'description' => 'Napišite opis v',
+      'placeholder' => 'Vnesite opis',
     ],
     'post' => 
     [
-      'information' => 'Post Information',
+      'information' => 'Informacije objave',
     ],
     'save' => 
     [
-      'continue' => 'Save & Continue',
+      'continue' => 'Shrani in nadaljuj',
     ],
   ],
   'step3' => 
   [
-    'title' => 'Location and Price',
-    'subtitle' => 'Location',
-    'online' => 'Is class online:',
-    'yes' => 'Yes',
-    'no' => 'No',
-    'in_person' => 'Is class in person:',
+    'title' => 'Lokacija in cena',
+    'subtitle' => 'Lokacija',
+    'online' => 'Je razred spletni:',
+    'yes' => 'Da',
+    'no' => 'Ne',
+    'in_person' => 'Je razred osebno:',
     'duration' => 
     [
-      'description' => 'Set the duration of your class (minutes)',
-      'title' => 'Duration',
-      'placeholder' => 'Enter duration',
+      'description' => 'Nastavite trajanje vašega razreda (minute)',
+      'title' => 'Trajanje',
+      'placeholder' => 'Vnesite trajanje',
     ],
     'price' => 
     [
-      'description' => 'Set the price for your class',
-      'title' => 'Price',
-      'placeholder' => 'Enter price',
+      'description' => 'Nastavite ceno za vaš razred',
+      'title' => 'Cena',
+      'placeholder' => 'Vnesite ceno',
     ],
     'currency' => 
     [
-      'description' => 'Select the currency for your class',
-      'title' => 'Currency',
-      'select' => 'Select currency',
+      'description' => 'Izberite valuto za vaš razred',
+      'title' => 'Valuta',
+      'select' => 'Izberite valuto',
     ],
-    'choose' => 'Choose',
+    'choose' => 'Izberi',
     'submit' => 
     [
-      'post' => 'Submit Post',
+      'post' => 'Oddaj objavo',
     ],
-    'description' => 'Description',
+    'description' => 'Opis',
     'country' => 
     [
-      'title' => 'Country',
-      'placeholder' => 'Enter country',
+      'title' => 'Država',
+      'placeholder' => 'Vnesite državo',
     ],
     'city' => 
     [
-      'title' => 'City',
-      'placeholder' => 'Enter city',
+      'title' => 'Mesto',
+      'placeholder' => 'Vnesite mesto',
+    ],
+    'continue' => 'Shrani in nadaljuj',
+  ],
+  'step4' => 
+  [
+    'video' => 
+    [
+      'description' => 'Predstavite svoj razred v privlačnem videoposnetku',
+      'title' => 'Video predstavitev razreda',
+      'choose' => 'Izberite video',
+      'change' => 'Spremeni video',
+      'selected' => 'Izbrani video',
+      'size' => 'Velikost videa ne sme presegati :size MB',
+    ],
+    'title' => 'Video predstavitev',
+    'submit' => 
+    [
+      'post' => 'Oddaj objavo',
     ],
   ],
   'edit_step' => 
   [
-    'title' => 'Edit Post',
+    'title' => 'Uredi objavo',
     'subject'=> [
-      'no_selected' => 'No subject selected',
+      'no_selected' => 'Noben predmet ni izbran',
     ],
-    'request' => 'Request Changes',
+    'request' => 'Zahtevaj spremembe',
   ],
 ];
