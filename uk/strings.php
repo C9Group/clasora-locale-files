@@ -126,6 +126,7 @@ return [
   'Delete Account' => 'Видалити обліковий запис',
   'Are you sure you want to delete your account?' => 'Ви впевнені, що хочете видалити свій обліковий запис?',
   'Choose Image' => 'Обрати зображення',
+  'Choose New Image' => 'Обрати нове зображення',
   'Upload Image' => 'Завантажити зображення',
   'on click!' => 'при кліку!',
   'Online class' => 'Онлайн-заняття',

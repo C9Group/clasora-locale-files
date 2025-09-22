@@ -126,6 +126,7 @@ return [
   'Delete Account' => 'Izbriši račun',
   'Are you sure you want to delete your account?' => 'Ali ste prepričani, da želite izbrisati svoj račun?',
   'Choose Image' => 'Izberite sliko',
+  'Choose New Image' => 'Izberite novo sliko',
   'Upload Image' => 'Naloži sliko',
   'on click!' => 'ob kliku!',
   'Online class' => 'Spletni pouk',

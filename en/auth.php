@@ -22,6 +22,7 @@ return [
   'onboarding_not_teacher' => 'Looking for Teachers',
   'onboarding_is_teacher' => 'I want to Teach',
   'approval_notice' => 'Your image update is under review. It will be visible as soon as it is approved.',
+  'approval_denied_notice' => 'Your image update has been denied. Please upload a new image that complies with our guidelines.',
   'update_profile_photo' => 'Update Profile Photo',
   'update_email_action' => 'Confirm Email',
   'update_email_description' => 'We were not able to detect email from your authentication provider. Please type in your email to continue.',

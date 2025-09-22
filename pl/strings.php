@@ -125,6 +125,7 @@ return [
   'Delete Account' => 'Usuń konto',
   'Are you sure you want to delete your account?' => 'Czy na pewno chcesz usunąć swoje konto?',
   'Choose Image' => 'Wybierz obraz',
+  'Choose New Image' => 'Wybierz nowy obraz',
   'Upload Image' => 'Prześlij obraz',
   'on click!' => 'po kliknięciu!',
   'Online class' => 'Zajęcia online',

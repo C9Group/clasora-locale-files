@@ -126,6 +126,7 @@ return [
   'Delete Account' => 'Delete Account',
   'Are you sure you want to delete your account?' => 'Are you sure you want to delete your account?',
   'Choose Image' => 'Choose Image',
+  'Choose New Image' => 'Choose New Image',
   'Upload Image' => 'Upload Image',
   'on click!' => 'on click!',
   'Online class' => 'Online class',

@@ -126,6 +126,7 @@ return [
   'Delete Account' => 'Удалить учётную запись',
   'Are you sure you want to delete your account?' => 'Вы уверены, что хотите удалить свою учетную запись?',
   'Choose Image' => 'Выберите изображение',
+  'Choose New Image' => 'Выберите новое изображение',
   'Upload Image' => 'Загрузить изображение',
   'on click!' => 'при нажатии!',
   'Online class' => 'Онлайн-класс',

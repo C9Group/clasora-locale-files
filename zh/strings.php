@@ -126,6 +126,7 @@ return [
   'Delete Account' => '删除账户',
   'Are you sure you want to delete your account?' => '您确定要删除您的帐户吗？',
   'Choose Image' => '选择图片',
+  'Choose New Image' => '选择新图片',
   'Upload Image' => '上传图片',
   'on click!' => '点击！',
   'Online class' => '在线课程',

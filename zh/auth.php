@@ -22,6 +22,7 @@ return [
   'onboarding_not_teacher' => '名师招募',
   'onboarding_is_teacher' => '我要授课',
   'approval_notice' => '图片更新审核中，审核通过后将立即展示。',
+  'approval_denied_notice' => '图片更新未通过审核，请重新上传符合要求的图片。',
   'update_profile_photo' => '更换头像',
   'update_email_action' => '验证电子邮箱',
   'update_email_description' => '邮箱获取失败，请重新填写邮箱地址。',
