@@ -22,6 +22,7 @@ return [
   'onboarding_not_teacher' => 'Lehrer suchen',
   'onboarding_is_teacher' => 'Ich möchte unterrichten',
   'approval_notice' => 'Ihre Bildaktualisierung wird überprüft. Es wird sichtbar, sobald es genehmigt wurde.',
+  'approval_denied_notice' => 'Ihre Bildaktualisierung wurde abgelehnt. Bitte laden Sie ein neues Bild hoch, das unseren Richtlinien entspricht.',
   'update_profile_photo' => 'Profilbild aktualisieren',
   'update_email_action' => 'E-Mail bestätigen',
   'update_email_description' => 'Wir konnten keine E-Mail-Adresse von Ihrem Authentifizierungsanbieter erkennen. Bitte geben Sie Ihre E-Mail-Adresse ein, um fortzufahren.',
