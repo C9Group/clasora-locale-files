@@ -138,4 +138,6 @@ return [
   'Drums' => '鼓',
   'Violin' => '小提琴',
   'Scratch' => 'Scratch',
+  'Hausa' => '豪萨语',
+  'Fula' => '富拉语',
 ];
