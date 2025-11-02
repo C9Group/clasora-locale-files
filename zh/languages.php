@@ -85,4 +85,6 @@ return [
   'Kannada' => '卡纳达语',
   'Filipino' => '菲律宾语',
   'Serbian Cyrillic' => '塞尔维亚西里尔字母',
+  'Hausa' => '豪萨语',
+  'Fula' => '富拉语',
 ];

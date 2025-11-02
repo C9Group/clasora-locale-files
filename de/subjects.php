@@ -204,4 +204,6 @@ return [
   'Drums' => 'Schlagzeug',
   'Violin' => 'Violine',
   'Scratch' => 'Scratch',
+  'Hausa' => 'Hausa',
+  'Fula' => 'Fula',
 ];

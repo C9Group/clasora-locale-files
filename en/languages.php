@@ -85,4 +85,6 @@ return [
   'Kannada' => 'Kannada',
   'Filipino' => 'Filipino',
   'Serbian Cyrillic' => 'Serbian Cyrillic',
+  'Hausa' => 'Hausa',
+  'Fula' => 'Fula',
 ];
