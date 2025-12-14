@@ -140,4 +140,6 @@ return [
   'Scratch' => 'Scratch',
   'Hausa' => '豪萨语',
   'Fula' => '富拉语',
+  'Political Science' => '政治学',
+  'International Relations' => '国际关系',
 ];

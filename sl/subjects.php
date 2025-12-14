@@ -206,4 +206,6 @@ return [
   'Scratch' => 'Scratch',
   'Hausa' => 'Hausa',
   'Fula' => 'Fula',
+  'Political Science' => 'Politologija',
+  'International Relations' => 'Mednarodni odnosi',
 ];
