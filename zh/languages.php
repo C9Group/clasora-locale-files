@@ -87,4 +87,5 @@ return [
   'Serbian Cyrillic' => '塞尔维亚西里尔字母',
   'Hausa' => '豪萨语',
   'Fula' => '富拉语',
+  'Sakha' => '萨哈',
 ];

@@ -232,4 +232,5 @@ return [
   'Oboe' => 'Oboa',
   'Bassoon' => 'Fagot',
   'Descriptive Geometry and Perspective' => 'Nacrtna geometrija i perspektiva',
+  'Sakha' => 'Sakha',
 ];

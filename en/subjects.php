@@ -232,4 +232,5 @@ return [
   'Oboe' => 'Oboe',
   'Bassoon' => 'Bassoon',
   'Descriptive Geometry and Perspective' => 'Descriptive Geometry and Perspective',
+  'Sakha' => 'Sakha',
 ];

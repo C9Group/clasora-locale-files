@@ -87,4 +87,5 @@ return [
   'Serbian Cyrillic' => 'Cirílico serbio',
   'Hausa' => 'Hausa',
   'Fula' => 'Fula',
+  'Sakha' => 'Sajá',
 ];

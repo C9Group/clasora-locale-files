@@ -166,4 +166,5 @@ return [
   'Oboe' => '双簧管',
   'Bassoon' => '巴松管',
   'Descriptive Geometry and Perspective' => '画法几何与透视',
+  'Sakha' => '萨哈',
 ];
